@@ -1,0 +1,33 @@
+body{
+  background-image: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t34.0-12/23435600_2162320377126679_2141516378_n.jpg?oh=5dc847d72dea522f411f14804a2bb0e8&oe=5A05F78D);
+  background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.MenuBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+  background-color: #333333;
+	left: 0;
+  display: block;
+  overflow: hidden;
+}
+.MenuBar {
+  float: right;
+}
+.MenuBar a {
+  display: block;
+  color: #ffffff;
+  font-family: "Futura", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 16px;
+}
+.MenuBar a:hover {
+  background-color: #000000;
+}
